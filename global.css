@@ -1,0 +1,16 @@
+:root {
+    --background-color: #E5E5E5;
+
+    --nav-color: #F7F6FF;
+
+    --logo-underline-color: #C4C4C4;
+
+    --button-background-color: #C4C4C4;
+    --nav-text-color: #C4C4C4;
+
+    --footer-border-color: #02577A;
+    --footer-text-color: #02577A;
+
+    --active-button-background-color: #FFF;
+    --active-button-text-color: #02577A;
+}

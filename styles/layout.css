@@ -1,0 +1,91 @@
+body {
+    background-color: #777;
+    height: 100vh;
+    display: flex;
+}
+
+nav {
+    height: 100%;
+    width: 100px;
+    overflow: auto;
+    background-color: var(--nav-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: width 400ms;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav:hover {
+    width: 206px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+nav > div {
+    border-bottom: 2px solid var(--logo-underline-color);
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 44px;
+    margin-bottom: 32px;
+    transition: margin 400ms;
+}
+
+nav:hover > div {
+    margin-left: 39px;
+    margin-right: 39px;
+}
+
+nav > a > span {
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+nav:hover > a > span {
+    opacity: 1;
+}
+
+.logo {
+    width: 68px;
+    height: 34px;
+    padding-bottom: 32px;
+    margin-left: calc(50% - 34px);
+}
+
+.nav-elements {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 37px;
+    color: var(--nav-text-color);
+
+}
+
+.nav-elements:active {
+    background-color: var(--active-button-background-color);
+    border-radius: 50px 0 0 50px;
+    margin-left: 11px;
+    padding-left: 32px;
+    color: var(--active-button-text-color);
+}
+
+.nav-elements:active > div > .icon > path {
+    fill: var(--active-button-text-color);
+}
+
+.icon {
+    margin-right: 19px;
+    flex: 0 0 auto;
+}
+
+nav > img {
+
+}
+
+.nav-text {
+   
+}
+
+.nav-text:hover {
+    
+}
