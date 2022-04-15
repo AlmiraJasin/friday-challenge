@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    width: 100%;
+    display: flex;
+}
+.greeting > h1 {
+    width: 341px;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    margin-left: 206px;
+    margin-top: 89px;
+}
+
+.greeting > span {
+    width: 516px;
+    height: 147px;
+    margin-left: 310px;
+    margin-top: 56px;
+    margin-bottom: 23px;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+
+.background {
+    margin-left: 100px;
+}
+
+.quotes {
+    width: 898px;
+    height: 121px;
+    margin-top: 49px;
+    border: 2px solid var(--primary-blue);
+    border-radius: 25px;
+}
+
+.quotes > span {
+    margin: 49px 185px;
+}

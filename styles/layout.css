@@ -81,7 +81,7 @@ nav:hover > a > span {
     flex: 0 0 auto;
 }
 
-body > div {
+body > .footer-container {
     width: 100%;
     align-self: flex-end;
 }
