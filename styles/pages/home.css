@@ -1,6 +1,8 @@
 main {
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .greeting {
@@ -12,7 +14,7 @@ main {
     font-size: 36px;
     font-weight: 500;
     line-height: 44px;
-    margin-left: 206px;
+    margin-left: 106px;
     margin-top: 89px;
 }
 
@@ -26,9 +28,10 @@ main {
     background-color: var(--white);
 }
 
-.background {
-    margin-left: 100px;
+.background, .background > img {
+    width: 100%;
 }
+
 
 .quotes {
     width: 898px;
@@ -36,8 +39,10 @@ main {
     margin-top: 49px;
     border: 2px solid var(--primary-blue);
     border-radius: 25px;
+    justify-self: center;
+    align-self: center;
 }
 
-.quotes > span {
+.quotes > div {
     margin: 49px 185px;
 }
